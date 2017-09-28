@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2792C3CE759AB804570E311E /* libPods-TextApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 503FAF408C7E97B8C3331441 /* libPods-TextApp.a */; };
+		E9BE84F41F7B4390002FBDAB /* JLCycleBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BE84F31F7B4390002FBDAB /* JLCycleBannerView.m */; };
+		E9BE84F71F7B4D92002FBDAB /* JCCycleBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BE84F61F7B4D92002FBDAB /* JCCycleBannerCell.m */; };
+		E9BE84FA1F7B8EA8002FBDAB /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E9BE84F81F7B8817002FBDAB /* 1.png */; };
+		E9BE84FB1F7B8EA8002FBDAB /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E9BE84F91F7B8D4B002FBDAB /* 2.png */; };
+		E9BE84FE1F7CBF35002FBDAB /* JCCycleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BE84FD1F7CBF35002FBDAB /* JCCycleLayout.m */; };
 		E9E8B0931F7A373500350FEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E8B0921F7A373500350FEB /* AppDelegate.m */; };
 		E9E8B0961F7A373500350FEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E8B0951F7A373500350FEB /* ViewController.m */; };
 		E9E8B0991F7A373500350FEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E8B0971F7A373500350FEB /* Main.storyboard */; };
@@ -35,6 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		503FAF408C7E97B8C3331441 /* libPods-TextApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TextApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59C4AD091697F47C5402B250 /* Pods-TextApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TextApp/Pods-TextApp.release.xcconfig"; sourceTree = "<group>"; };
+		C5CA56571BAE2F2E67ED160B /* Pods-TextApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TextApp/Pods-TextApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E9BE84F21F7B4390002FBDAB /* JLCycleBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLCycleBannerView.h; sourceTree = "<group>"; };
+		E9BE84F31F7B4390002FBDAB /* JLCycleBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLCycleBannerView.m; sourceTree = "<group>"; };
+		E9BE84F51F7B4D92002FBDAB /* JCCycleBannerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCCycleBannerCell.h; sourceTree = "<group>"; };
+		E9BE84F61F7B4D92002FBDAB /* JCCycleBannerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCCycleBannerCell.m; sourceTree = "<group>"; };
+		E9BE84F81F7B8817002FBDAB /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		E9BE84F91F7B8D4B002FBDAB /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		E9BE84FC1F7CBF35002FBDAB /* JCCycleLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCCycleLayout.h; sourceTree = "<group>"; };
+		E9BE84FD1F7CBF35002FBDAB /* JCCycleLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCCycleLayout.m; sourceTree = "<group>"; };
 		E9E8B08E1F7A373500350FEB /* TextApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E8B0911F7A373500350FEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E9E8B0921F7A373500350FEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2792C3CE759AB804570E311E /* libPods-TextApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +96,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		70AACE001901522528930397 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5CA56571BAE2F2E67ED160B /* Pods-TextApp.debug.xcconfig */,
+				59C4AD091697F47C5402B250 /* Pods-TextApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB17D3C8C42C7188E3F87D6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				503FAF408C7E97B8C3331441 /* libPods-TextApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E9E8B0851F7A373500350FEB = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +120,8 @@
 				E9E8B0A91F7A373500350FEB /* TextAppTests */,
 				E9E8B0B41F7A373500350FEB /* TextAppUITests */,
 				E9E8B08F1F7A373500350FEB /* Products */,
+				70AACE001901522528930397 /* Pods */,
+				CB17D3C8C42C7188E3F87D6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,11 +142,19 @@
 				E9E8B0921F7A373500350FEB /* AppDelegate.m */,
 				E9E8B0941F7A373500350FEB /* ViewController.h */,
 				E9E8B0951F7A373500350FEB /* ViewController.m */,
+				E9BE84F21F7B4390002FBDAB /* JLCycleBannerView.h */,
+				E9BE84F31F7B4390002FBDAB /* JLCycleBannerView.m */,
+				E9BE84F51F7B4D92002FBDAB /* JCCycleBannerCell.h */,
+				E9BE84F61F7B4D92002FBDAB /* JCCycleBannerCell.m */,
+				E9BE84FC1F7CBF35002FBDAB /* JCCycleLayout.h */,
+				E9BE84FD1F7CBF35002FBDAB /* JCCycleLayout.m */,
 				E9E8B0971F7A373500350FEB /* Main.storyboard */,
 				E9E8B09A1F7A373500350FEB /* Assets.xcassets */,
 				E9E8B09C1F7A373500350FEB /* LaunchScreen.storyboard */,
 				E9E8B09F1F7A373500350FEB /* Info.plist */,
 				E9E8B0A01F7A373500350FEB /* main.m */,
+				E9BE84F81F7B8817002FBDAB /* 1.png */,
+				E9BE84F91F7B8D4B002FBDAB /* 2.png */,
 			);
 			path = TextApp;
 			sourceTree = "<group>";
@@ -139,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9E8B0BA1F7A373500350FEB /* Build configuration list for PBXNativeTarget "TextApp" */;
 			buildPhases = (
+				057487AE3C5FD08FA0174A7D /* [CP] Check Pods Manifest.lock */,
 				E9E8B08A1F7A373500350FEB /* Sources */,
 				E9E8B08B1F7A373500350FEB /* Frameworks */,
 				E9E8B08C1F7A373500350FEB /* Resources */,
+				41FA62B74BAE9089E9A7DA13 /* [CP] Embed Pods Frameworks */,
+				BB3BBBF93E41AC815F2DD098 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,6 +286,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9BE84FA1F7B8EA8002FBDAB /* 1.png in Resources */,
+				E9BE84FB1F7B8EA8002FBDAB /* 2.png in Resources */,
 				E9E8B09E1F7A373500350FEB /* LaunchScreen.storyboard in Resources */,
 				E9E8B09B1F7A373500350FEB /* Assets.xcassets in Resources */,
 				E9E8B0991F7A373500350FEB /* Main.storyboard in Resources */,
@@ -260,14 +310,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		057487AE3C5FD08FA0174A7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TextApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41FA62B74BAE9089E9A7DA13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TextApp/Pods-TextApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB3BBBF93E41AC815F2DD098 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TextApp/Pods-TextApp-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TextApp/Pods-TextApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E9E8B08A1F7A373500350FEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E9E8B0961F7A373500350FEB /* ViewController.m in Sources */,
+				E9BE84FE1F7CBF35002FBDAB /* JCCycleLayout.m in Sources */,
+				E9BE84F41F7B4390002FBDAB /* JLCycleBannerView.m in Sources */,
 				E9E8B0A11F7A373500350FEB /* main.m in Sources */,
 				E9E8B0931F7A373500350FEB /* AppDelegate.m in Sources */,
+				E9BE84F71F7B4D92002FBDAB /* JCCycleBannerCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +535,7 @@
 		};
 		E9E8B0BB1F7A373500350FEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5CA56571BAE2F2E67ED160B /* Pods-TextApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +549,7 @@
 		};
 		E9E8B0BC1F7A373500350FEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59C4AD091697F47C5402B250 /* Pods-TextApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
